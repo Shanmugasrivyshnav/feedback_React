@@ -1,0 +1,71 @@
+.feedback-container {
+  background: linear-gradient(to right, #ffeeee, #ffc0bb);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  width: 100vw;
+}
+.feedback-card-container {
+  background-color: #ffffff;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 50%;
+  width: 50%;
+}
+.main-heading-question {
+  color: #0f172a;
+  font-size: 22px;
+}
+
+.emoji-list {
+  list-style-type: none;
+  display: flex;
+  justify-content: space-around;
+  padding: 0;
+}
+
+.emoji-item {
+  text-align: center;
+}
+
+.emoji-button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+.emoji-image {
+  width: 50px;
+}
+
+.emoji-name {
+  margin-top: 8px;
+  color: #1e293b;
+}
+
+.love-emoji {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.thank-you-heading {
+  color: #0f172a;
+  margin-bottom: 10px;
+}
+
+.thank-you-description {
+  color: #1e293b;
+}
+.back-button {
+  background-color: #0f172a;
+  color: #ffffff;
+  border: none;
+  padding: 10px 20px;
+  cursor: pointer;
+  margin-top: 20px;
+}
