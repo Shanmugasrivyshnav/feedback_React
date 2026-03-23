@@ -4,17 +4,17 @@ import "./feedbackandthank.css";
 
 class Feedback extends Component {
   state = {
-    isFeedbackGiven: false,
+    isFeedbackGiven: true,
   };
 
   onClickEmoji = () => {
     this.setState({
-      isFeedbackGiven: true,
+      isFeedbackGiven: false,
     });
   };
   onBack = () => {
     this.setState((prevState) => ({
-      isFeedbackGiven: prevState.isFeedbackGiven ? false : true,
+      isFeedbackGiven: prevState.isFeedbackGiven ? true : false,
     }));
   };
 
