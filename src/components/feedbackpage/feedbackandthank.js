@@ -25,7 +25,7 @@ class Feedback extends Component {
     return (
       <div className="feedback-card-container">
         <h1 className="main-heading-question">
-          How satisfied are you with our <br />
+          How satisfied are you with our <br /> <hr/>
           customer support performance?
         </h1>
 
